@@ -1,4 +1,4 @@
-package com.metanit;
+package com.company;
 
 import java.util.Scanner;
 
@@ -14,13 +14,15 @@ public class Main {
         if (x<1) {
 System.out.println("Неверное значение");
         }
-        for (var j=0;j<=n;j++) {
-            double arthx = (1/(2*n + 1)*(Math.pow(x,2*n+1)));
-            summa = summa+arthx;
-        }
-        System.out.println(summa);
-        if (n<0){
-        System.out.println("Неверное значение");
-        }
-    }
-}
+        else{
+for (var j = 0; j <= n; j++) {
+double arthx = (1 / (2 * n + 1) * (Math.pow(x, 2 * n + 1)));
+summa = summa + arthx;
+       }
+System.out.println(summa);
+    } 
+if (n<0){
+System.out.println("Неверное значение");
+   }
+  }
+} 
